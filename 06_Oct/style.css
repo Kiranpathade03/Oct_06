@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://images.pexels.com/photos/37730/sunset-boat-sea-ship-37730.jpeg?cs=srgb&dl=birds-hd-wallpaper-ocean-37730.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: blur(120px);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.child1 {
+    backdrop-filter: blur(12px);
+    width: 50%;
+    height: 700px;
+}
